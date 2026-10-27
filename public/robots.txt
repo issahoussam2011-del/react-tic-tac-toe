@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://houssam-tic-tac-toe.netlify.app/sitemap.xml

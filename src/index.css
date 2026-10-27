@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --animate-square: winning-square ease-out 0.23s alternate 2;
+
+  @keyframes winning-square {
+    from {
+    }
+    to {
+      transform: scale(1.3);
+    }
+  }
+}
+
+#root {
+  @apply flex items-center justify-center flex-col gap-2 h-[87vh];
+}
+body {
+  @apply bg-slate-950 flex justify-center h-screen font-[Inter];
+}
+
+@keyframes winning-square {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.07);
+  }
+}
